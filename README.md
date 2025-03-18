@@ -40,26 +40,37 @@
 ## 2. Pivot Tables
 ### Average Income Analysis
 1. Created a Pivot Table (Selected the whole table)
-![images/1. Average Income]<img width="743" alt="Image" src="https://github.com/user-attachments/assets/5231a0ec-1330-4f3f-9eab-96023a45e5d5" />
-2. Added:
+![images/1. Average Income.png](https://github.com/KasthuMathan/excel-data-visualization-learning/blob/main/images/1.%20Average%20Income.png)
+
+3. Added:
   - Income -> Values (Changed Sum to Average)
   - Gender -> Rows
   - Purchased Bike -> Columns
 3. Chart type: 2D Clustered Column Chart
+![images/2. Average Icome Chart.png](https://github.com/KasthuMathan/excel-data-visualization-learning/blob/main/images/2.%20Average%20Icome%20Chart.png)
 
 ### Commute Distance Analysis
 1. Created a Pivot Table with:
   - Commute Distance -> Rows
   - Bike Purchase -> Values (Count of Purchases)
   - Bike Purchase -> Columns
+![images/3. Commute Distance.png](https://github.com/KasthuMathan/excel-data-visualization-learning/blob/main/images/3.%20Commute%20Distance.png)
 2. Chart type: 2D Line Chart
+![images/4. Commute Distance Chart.png](https://github.com/KasthuMathan/excel-data-visualization-learning/blob/main/images/4.%20Commute%20Distance%20Chart.png)
 
 ## 3. Age Brackets Analysis
 1. Created a Pivot Table with:
   - Age Brackets -> Rows
   - Bike Purchase -> Values (Count of Purchases)
   - Bike Purchase -> Columns
+![images/5. Age Brackets.png](https://github.com/KasthuMathan/excel-data-visualization-learning/blob/main/images/5.%20Age%20Brackets.png)
 2. Using Age Brackets makes analysis clearer compared to raw age values.
+### Age Bracket
+![images/6. Age Brackets Chart.png](https://github.com/KasthuMathan/excel-data-visualization-learning/blob/main/images/6.%20Age%20Brackets%20Chart.png)
+
+### Raw "Age"
+![images/8. Ages Charts.png](https://github.com/KasthuMathan/excel-data-visualization-learning/blob/main/images/8.%20Ages%20Charts.png)
+This raw "age" would be more complicated to identify and undersatnd clearly, so using an "Age Bracket" would make more clear by showing the age category.
 
 ## Dashboard
 ### Dashboard Elements
@@ -75,7 +86,8 @@ Included visualizations for:
   - Region
   - Education
 3. Connected slicers to all Pivot Tables using:
-  -Slicer > Report Connections
+  - Slicer > Report Connections
+![images/9. Dashboard Visualization.png](https://github.com/KasthuMathan/excel-data-visualization-learning/blob/main/images/9.%20Dashboard%20Visualization.png)
 
 Now, the dashboard dynamically filters data for deeper insights.
 
